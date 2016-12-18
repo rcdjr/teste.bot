@@ -9,7 +9,7 @@
 
 /* jshint node: true, devel: true */
 'use strict';
- heroku buildpacks:set heroku/nodejs
+ 
 const
   bodyParser = require('body-parser'),
   config = require('config'),
