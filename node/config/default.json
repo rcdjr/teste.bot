@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+    "appSecret": "cda4147b39f110ab933bf5632ec2e2dd",
+    "pageAccessToken": "EAAcue6tg4yIBAFBHaEwg8xCbXjzCkyeyPqFaAP7PRPEohr64ssj4ytShkoWN60ClkYop6QuGKZB4ZCw5z1o4K7wm4gwLRvVZBSbCd5rV0WwGskIn5QbchtpUBhkQOsiT2IPYbQRPeBMxyhXJTlg9liilaU7xN3ikvdDHwvzsgZDZD",
+    "validationToken": "testebot123",
+    "serverURL": "https://tstfbmsngrbot.herokuapp.com/"
 }
