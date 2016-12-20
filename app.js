@@ -24,7 +24,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
 app.use(express.static('public'));
 var consolere = require('console-remote-client').connect('console.re','80','5fc2-9a0a-dcdb');
-
+console.re.log('remote log test');
 /*
  * Be sure to setup your config values before running this code. You can
  * set them using environment variables or modifying the config file in /config.
