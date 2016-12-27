@@ -24,6 +24,8 @@ app.set('port', process.env.PORT || 5000);
 app.set('view engine', 'ejs');
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
 app.use(express.static('public'));
+var consolere = require('console-remote-client').connect('console.re','80','5fc2-9a0a-dcdb');
+
 
 
 /*
