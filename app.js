@@ -243,8 +243,11 @@ function receivedMessage(event) {
     // Just logging message echoes to console
     console.log("Received echo for message %s and app %d with metadata %s",
       messageId, appId, metadata);
+      sendTextMessage(senderID, "Ai monica do caralho");
+
     return;
-  } else if (quickReply) {
+  }
+  else (quickReply) {
     var quickReplyPayload = quickReply.payload;
     console.log("Quick reply for message %s with payload %s",
       messageId, quickReplyPayload);
@@ -312,7 +315,7 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, messageText);
+        sendTextMessage(senderID, "caraio de aguia");
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
